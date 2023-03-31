@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(images/background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+    width: 100%;
+    background: #313030;
+}
+.navbar .img{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.navbar ul li{
+    display: inline-block;
+    color: #fff;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar .nav-btn button{
+    background: orange;
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+.header-detail{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    color: #fff;
+    
+}
+.header-detail h1{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.header-detail .header-detail-btn{
+    background: orange;
+    font-size: 1rem;
+    color: #000;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+/* about */
+.about-section{
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(images/about\ image.webp);
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.about-section h1{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+    position: relative;
+
+}
+.about-section h1::before{
+    position: absolute;
+    content: "";
+    background: orange;
+    width: 5px;
+    height: 45%;
+    left: -10px;
+}
+.about-section .about-detail{
+    color: white;
+    width: 550px;
+}
+.about-detail h2{
+font-size: 1.5rem;
+padding-left: 2rem;
+padding-bottom: 2rem;
+}
+.about-detail p{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+.about-detail .about-btn{
+    width: 150px ;
+    height: 35px;
+    background: orange;
+    border: none;
+    margin-left: 2rem;
+}
+/* shop */
+.shop-detail{
+    margin-bottom: 5rem;
+}
+.shop-detail h1{
+color: #000;
+position: relative;
+margin-left: 2rem;
+}
+.shop-detail h1::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: orange;
+    left: -15px;
+}
+.shop-card-section{
+    display: flex;
+justify-content: center;
+text-align: center;
+}
+.shop-section .shop-card{
+    width: 350px;
+    height: 400px;
+    box-shadow: 5px 5px 15px black;
+margin: auto;
+}
+.shop-card .shop-content h2{
+padding-top: 1.2rem;
+padding-bottom: 1rem;
+}
+.shop-card .shop-content p{
+padding-bottom: 1rem;
+}
+.shop-btn{
+    width: 100px;
+    height: 25px;
+    background: orange;
+    color: #000;
+    font-weight: 500;
+    border: none;
+}
+/* product */
+.product-section{
+    margin-top: 3rem;
+}
+.pro-h1{
+    margin-left: 2rem;
+}
+.pro-h1 h1{
+    position: relative;
+    margin-bottom: 4rem;
+
+}
+.pro-h1 h1::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    background: orange;
+    width: 6px;
+height: 100%;
+}
+.pro-detail{
+    display: flex;
+    justify-content: center;
+}
+.pro-card{
+    margin: auto;
+    width: 300px;
+    height: 350px;
+    background-image: url(images/product\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.pro-card-1{
+    margin: auto;
+    width: 300px;
+    height: 350px;
+    background-image: url(images/product\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.pro-card-2{
+    margin: auto;
+    width: 300px;
+    height: 350px;
+    background-image: url(images/product\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.pro-card h1{
+    padding-bottom: 2rem;
+}
+.pro-card-1 h1{
+    padding-bottom: 2rem;
+}
+.pro-card-2 h1{
+    padding-bottom: 2rem;
+}
+.pro-card-detail .pro-btn{
+    width: 100px;
+    height: 26px;
+    background: orange;
+    color: #000;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1rem;
+}
+/* contact */
+.contact-section{
+    margin-top: 3rem;
+    background: #000;
+    color: #fff;
+}
+.con-h1{
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+.con-h1 h1{
+    position: relative;
+}
+.con-h1 h1::before{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 100%;
+    background: orange;
+    left: -10px;
+}
+.cont-detail{
+    display: flex;
+}
+.cont-detail .cont-img{
+    margin: auto;
+}
+.cont-detail .detail-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+form{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input{
+    width: 60%;
+    height: 2rem;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: white;
+}
+#sddress{
+    height: 2.5rem;
+}
+#message{
+    height: 3.5rem;
+}
+.cont-btn{
+    width: 150px;
+    height: 40px;
+    background: orange;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 4rem;
+    width: 100%;
+}
